@@ -6,15 +6,11 @@ import 'dart:io';
 
 void main(List<String> arguments) async {
   const String imagePageUrl = 'https://wiki.eclipse.org/';
-  const String imageRepository = 'eclipse-equinox/p2';
+  const String imageRepository = 'eclipse-datatools';
 // https://raw.githubusercontent.com/vogellacompany/eclipse.platform/faq/docs/
 
   List<String> wikiPageUrls = [
-    'https://wiki.eclipse.org/Equinox/p2/Customizing_Metadata',
-    'https://wiki.eclipse.org/Equinox/p2/Concepts',
-    'https://wiki.eclipse.org/Equinox/p2/Engine',
-    "https://wiki.eclipse.org/Equinox/p2/Query_Language_for_p2",
-    "https://wiki.eclipse.org/Installable_Units",
+    'https://wiki.eclipse.org/Category:Data_Tools_Platform',
   ];
 
   String directoryPath = 'docs/';
